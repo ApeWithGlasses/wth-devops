@@ -33,8 +33,18 @@
 
 .grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  
+  #hours {
+    text-align: center;
+  }
+  
+  .pets {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 
 /* Styles for Cards */
