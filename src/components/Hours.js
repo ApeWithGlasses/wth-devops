@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Hours() {
+    // comment to test the security
     const hours = [
         { day: "Monday", open: "10:00", close: "16:00" },
         { day: "Tuesday", open: "10:00", close: "16:00" },
